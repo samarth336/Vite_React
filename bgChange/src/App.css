@@ -1,0 +1,31 @@
+.main{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(96, 111, 213);
+}
+
+.options{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+ul{
+  height: 70px;
+  width: 100%;
+  border-bottom: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: 0;
+}
+li{
+  display: inline-block;
+  background-color: aliceblue;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
